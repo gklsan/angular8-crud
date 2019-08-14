@@ -31,6 +31,7 @@
         </mat-error>
       </mat-form-field>
       <div class="button-row">
+        {{productForm.valid}}
         <button type="submit" [disabled]="!productForm.valid" mat-flat-button color="primary"><mat-icon>save</mat-icon></button>
       </div>
     </form>
