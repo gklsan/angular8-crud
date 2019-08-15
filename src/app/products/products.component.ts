@@ -9,7 +9,7 @@ import { Product } from '../product';
 })
 export class ProductsComponent implements OnInit {
 
-  displayedColumns: string[] = ['prod_name', 'prod_price'];
+  displayedColumns: string[] = ['name', 'price'];
   data: Product[] = [];
   isLoadingResults = true;
 
